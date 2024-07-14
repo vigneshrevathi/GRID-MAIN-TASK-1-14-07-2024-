@@ -1,0 +1,97 @@
+.person-image{
+    width: 120px;
+    height: 120px;
+    background-color: aliceblue;
+    background-image: url(profilePhoto.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 717px;
+    border-radius: 13px;
+}
+.name{
+    text-transform: capitalize;
+    margin-left: 35px;
+}
+.container-wrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    margin-left: 625px;
+    margin-top: 24px;
+    gap: 35px;
+}
+
+.sub-content1{ 
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.sub-content2{
+    padding-left: 15px;
+    padding-right: 12px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.sub-content3{
+    padding-left: 15px;
+    padding-right: 14px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.main-content{
+    margin-top: 20px;
+    display: grid;
+    height: 100vh;
+    flex: 1;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item{
+    background-color: aqua;
+    border: solid 8px white;
+}
+#item1{
+    background-image: url(photo1.png);
+    background-position: center;
+    background-size: cover;
+}
+#item2{
+    grid-column: span 2;
+    background-image: url(photo2.png);
+    background-position: center;
+    background-size: cover;
+}
+#item3{
+    grid-column: span 2;
+    background-image: url(photo3.png);
+    background-position: center;
+    background-size: cover;
+}
+#item4{
+    grid-row: span 2;
+    background-image: url(photo_4.png);
+    background-position: center;
+    background-size: cover;
+}
+#item5{
+    background-image: url(photo5.png);
+    background-position: center;
+    background-size: cover;
+}
+#item6{
+    background-image: url(photo6.png);
+    background-position: center;
+    background-size: cover;
+}
